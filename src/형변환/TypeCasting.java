@@ -21,6 +21,6 @@ public class TypeCasting {
 //      Double.parseDouble(test);`  문자열을 실수 double 타입으로 변환 합니다.
 
         System.out.println(avg);
-
+        System.out.println(avg);
     }
 }
