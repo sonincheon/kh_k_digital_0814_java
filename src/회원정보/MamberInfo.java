@@ -28,7 +28,7 @@ public class MamberInfo {
     }//void : 결과를 되돌려줄께없으면 보이드, return 메소드 탈출
     public void setgender() {
         while (true) {
-            System.out.println("성별을 입력하시오 : ");
+            System.out.print("성별을 입력하시오 : ");
             gender = sc.next().charAt(0);
             switch(gender){
                 case'M' :
@@ -44,11 +44,29 @@ public class MamberInfo {
         }
     }
     public void setjobs(){
+        while(true){
+            System.out.print("직업을 입력하시오 : ");
+            jobs = sc.nextInt();
+            if(jobs >0 &&jobs <5) break;
+            System.out.print("직업을 잘못 입력 하셨습니다.");
+        }
 
+    }
+    public int getGenderType(){
+        if(gender =='M'||gender =='m') return 1;
+        else return 2;
 
+    }
+    public void getInfor(){
+        String[] genderStr ={"","남성","여성"};
+        String[] jobsStr={"","학생","회사원","주부","무직"};
+        System.out.println("=".repeat(5) + "회원정보"+ "=".repeat(5));
+        System.out.println("이름 : " +name);
+        System.out.println("나이 : " +age);
+        System.out.println("성별 : " +genderStr[getGenderType()]);
+        System.out.println("직업 : " +jobsStr[jobs]);
 
 
     }
-
 
 }
