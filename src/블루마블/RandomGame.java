@@ -9,9 +9,6 @@ public class RandomGame {
         int rand1,rand2;
         int cnt = 0; //몇번만에 탈출햇는지 숫자세기
 
-//        Scanner sc =new Scanner(System.in);
-//        System.out.print("수를 입력하시오");
-//        rand1 = sc.nextInt();
         while (true){
             cnt++;
             rand1 =(int)((Math.random()*6)+1); // (정수)(0.1~ 5.999999 +1)

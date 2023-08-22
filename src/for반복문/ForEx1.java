@@ -15,13 +15,6 @@ public class ForEx1 {
             i++;
             if(i > 100)break;
 
-//        int i =1;
-//        while(true){
-//
-//            System.out.printf("%4d", i);
-//            if(i %10 ==0) System.out.println();
-//            i++;
-//            if(i>100)break;
         }
     }
 }
