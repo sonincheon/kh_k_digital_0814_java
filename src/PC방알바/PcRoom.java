@@ -1,5 +1,5 @@
 package PC방알바;
-// 인원 수
+// 인원 수 **
 // 예약할 좌석 번호 100개
 // 결과는 거절 횟수 출력
 
@@ -17,6 +17,8 @@ public class PcRoom {
             else pcRoom[seatNum-1] = 1; // 자리가 있을떄 cnt +1
         }
         System.out.println(rejectcnt);
+
+
     }
 }
 

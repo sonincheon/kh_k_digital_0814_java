@@ -1,5 +1,5 @@
 package While문;
-// 주어진 조건이 참인 동안 계속 해당 블록{ }을 반복 수행
+// 주어진 조건이 참인 동안 계속 해당 블록{ }을 반복 수행**
 
 import java.util.Scanner;
 

@@ -11,21 +11,23 @@ import java.util.Scanner;
 
 public class PlusCycle {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        System.out.print("입력 : ");
-        int input =sc.nextInt(); // 최초 숫자
-        int totalCnt = 0; // 사이클 누적횟수
-        int calcNum = input; //최초 입력값이 변경되지 않도록 하기위해서 ..
-        int divsum = 0; // 수를 10의 자리와 1의 자리로 분리해서 더하기 위한 변수
-        int newNum = 0;
-        while (true){
-            totalCnt++;
-            divsum = (calcNum/10)+(calcNum%10); //10자리 1자리 분리해서 더함
-            newNum = (calcNum%10)*10+(divsum%10); //앞의 1의 자리와 뒤의 1의자리 더함
-            if(newNum == input)break;
-            calcNum=newNum;
-        }
-        System.out.println(totalCnt);
+//        Scanner sc =new Scanner(System.in);
+//        System.out.print("입력 : ");
+//        int input =sc.nextInt(); // 최초 숫자
+//        int totalCnt = 0; // 사이클 누적횟수
+//        int calcNum = input; //최초 입력값이 변경되지 않도록 하기위해서 ..
+//        int divsum = 0; // 수를 10의 자리와 1의 자리로 분리해서 더하기 위한 변수
+//        int newNum = 0;
+//        while (true){
+//            totalCnt++;
+//            divsum = (calcNum/10)+(calcNum%10); //10자리 1자리 분리해서 더함
+//            newNum = (calcNum%10)*10+(divsum%10); //앞의 1의 자리와 뒤의 1의자리 더함
+//            if(newNum == input)break;
+//            calcNum=newNum;
+//        }
+//        System.out.println(totalCnt);
+
+
 
 
 

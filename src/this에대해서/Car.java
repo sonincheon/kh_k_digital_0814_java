@@ -16,4 +16,7 @@ public class Car {    // Car car =new car();
         this.color=color;
         maxSpeed = speed;
     }
+    void carInfo(){
+        System.out.println(model +year+color+maxSpeed);
+    }
 }

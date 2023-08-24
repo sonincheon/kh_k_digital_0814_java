@@ -5,7 +5,7 @@ import 연1.T;
 // 객체가 한번만 생성되는 것
 public class SingletonMain {
     public static void main(String[] args) {
-//        // Singleton test =new Singleton(); 객체 생성을 할 수 없음
+        // Singleton test =new Singleton(); 객체 생성을 할 수 없음
 //        Singleton obj1 = Singleton.getSingleton();
 //        Singleton obj2 = Singleton.getSingleton();
 //        System.out.println(obj1.id);
