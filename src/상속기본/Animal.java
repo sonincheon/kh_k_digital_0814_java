@@ -8,6 +8,7 @@ public class Animal {
 }
 // Animal을 상속 받아 Dog 클래스를 만듬
 class Dog extends Animal{
+
     void sleep(){
         System.out.println(this.name + " zzz");
     }
