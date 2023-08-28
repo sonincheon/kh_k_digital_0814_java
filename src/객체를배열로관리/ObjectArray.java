@@ -1,5 +1,7 @@
 package 객체를배열로관리;
 
+import 시스템출력.SystemOut;
+
 import java.util.Scanner;
 
 public class ObjectArray {
@@ -23,5 +25,6 @@ public class ObjectArray {
             nameCards[i].setPhoneNumber(sc.next());
         }
         for(NameCard i : nameCards) i.printInfo();
+
     }
 }
