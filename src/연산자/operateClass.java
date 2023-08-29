@@ -72,15 +72,5 @@ public class operateClass {
         result3 = val1 + (++val2) * val3; //35
 
         System.out.println(result1+" "+result2+" "+result3);
-
-
-
-
-
-
-
-
-
-
     }
 }
