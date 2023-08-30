@@ -15,10 +15,6 @@ public class test4 {
             System.out.print(input.charAt(pos));
             pos--;
 
-
-
-
-
         }
 
     }

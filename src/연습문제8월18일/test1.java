@@ -36,12 +36,12 @@ public class test1 {
 //            System.out.println("정확한 시간이아닙니다.");
 //        }
         //해답
-//        int totalM= H *60 +M;
-//        if(totalM <45) {
-//            totalM = 24 * 60 + totalM;
-//        }
-//            totalM -=45;
-//            System.out.println("상근이 기상시간은"+(totalM/60)+"시"+(totalM%60)+"분 입니다.");
+        int totalM= H *60 +M;
+        if(totalM <45) {
+            totalM = 24 * 60 + totalM;
+        }
+            totalM -=45;
+            System.out.println("상근이 기상시간은"+(totalM/60)+"시"+(totalM%60)+"분 입니다.");
 
 
 

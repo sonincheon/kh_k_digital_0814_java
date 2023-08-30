@@ -17,10 +17,5 @@ public class ExampleTest {
         }else {
            System.out.println(year +"년은 윤년 아닙니다.");//조건이 거짓인경우
         }
-
-
-
-
-
     }
 }
